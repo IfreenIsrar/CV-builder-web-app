@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV - Basic Template 2</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body class="bg-white">
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="index.html">
+                <i class="fas fa-file-pdf"></i> CV Builder
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="templates.html">Templates</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Action Buttons -->
+    <div class="container mt-4 mb-4">
+        <div class="d-flex gap-2 flex-wrap">
+            <button class="btn btn-outline-dark" onclick="editCV()">
+                <i class="fas fa-edit"></i> Edit
+            </button>
+            <button class="btn btn-outline-dark" onclick="printCV()">
+                <i class="fas fa-print"></i> Print
+            </button>
+            <button class="btn btn-outline-dark" onclick="downloadPDF()">
+                <i class="fas fa-download"></i> Download PDF
+            </button>
+            <a href="templates.html" class="btn btn-outline-secondary">
+                <i class="fas fa-arrow-left"></i> Back
+            </a>
+        </div>
+    </div>
+
+    <!-- CV Container -->
+    <div class="container mb-5">
+        <div class="p-4">
+            <!-- Header -->
+            <div class="mb-4 pb-3 border-bottom">
+                <h1 id="nameDisplay" class="mb-1" style="font-size: 2.5rem;">Your Name</h1>
+                <div class="row g-3">
+                    <div class="col-md-6">
+                        <p id="emailDisplay" class="mb-1">Email: <span>email@example.com</span></p>
+                        <p id="phoneDisplay" class="mb-0">Phone: <span>+1 (555) 123-4567</span></p>
+                    </div>
+                    <div class="col-md-6">
+                        <p id="addressDisplay" class="mb-1">Address: <span>City, Country</span></p>
+                        <p id="linkedinDisplay" class="mb-0">LinkedIn: <a href="#">Profile</a></p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Professional Summary -->
+            <div class="mb-4">
+                <h4 class="mb-3" style="font-weight: 600;">PROFESSIONAL SUMMARY</h4>
+                <p id="careerSummaryDisplay" class="mb-0">Add your professional summary here...</p>
+            </div>
+
+            <!-- Work Experience -->
+            <div class="mb-4">
+                <h4 class="mb-3" style="font-weight: 600;">WORK EXPERIENCE</h4>
+                <div id="experienceDisplayBasic2"></div>
+            </div>
+
+            <!-- Education -->
+            <div class="mb-4">
+                <h4 class="mb-3" style="font-weight: 600;">EDUCATION</h4>
+                <div id="educationDisplayBasic2"></div>
+            </div>
+
+            <!-- Skills -->
+            <div class="mb-4">
+                <h4 class="mb-3" style="font-weight: 600;">SKILLS</h4>
+                <div id="skillsDisplayBasic2"></div>
+            </div>
+
+            <!-- Projects -->
+            <div class="mb-4">
+                <h4 class="mb-3" style="font-weight: 600;">PROJECTS</h4>
+                <div id="projectsDisplayBasic2"></div>
+            </div>
+
+            <!-- Certifications -->
+            <div class="mb-4">
+                <h4 class="mb-3" style="font-weight: 600;">CERTIFICATIONS</h4>
+                <div id="certificationsDisplayBasic2"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-light border-top py-4 mt-5">
+        <div class="container text-center">
+            <p class="mb-0 text-muted">&copy; 2026 CV Builder. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            displayCVData('basic2');
+        });
+    </script>
+</body>
+</html>

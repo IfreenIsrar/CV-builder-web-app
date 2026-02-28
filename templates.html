@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Choose Template - CV Builder</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="index.html">
+                <i class="fas fa-file-pdf"></i> CV Builder
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="templates.html">Templates</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="bg-light py-4">
+        <div class="container">
+            <h1 class="mb-2">Choose Your CV Template</h1>
+            <p class="text-muted">Select a template that best matches your style and industry.</p>
+        </div>
+    </section>
+
+    <!-- Modern Templates Section -->
+    <section class="py-5">
+        <div class="container">
+            <h2 class="mb-4 fw-bold">
+                <i class="fas fa-star text-warning"></i> Modern Templates
+            </h2>
+            <div class="row g-4 mb-5">
+                <!-- Modern Template 1 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="template-card card border-0 shadow-sm overflow-hidden">
+                        <div class="template-preview bg-gradient-modern p-4" style="height: 200px;">
+                            <div class="text-white">
+                                <h5 class="mb-1">Modern Minimal</h5>
+                                <p class="small mb-2">Clean, contemporary design</p>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Modern Template 1</h5>
+                            <p class="card-text small text-muted">Minimalist design with accent colors and modern typography.</p>
+                            <button class="btn btn-primary w-100" onclick="selectTemplate('modern1')">
+                                <i class="fas fa-check"></i> Select Template
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Modern Template 2 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="template-card card border-0 shadow-sm overflow-hidden">
+                        <div class="template-preview bg-gradient-modern-2 p-4" style="height: 200px;">
+                            <div class="text-white">
+                                <h5 class="mb-1">Modern Vibrant</h5>
+                                <p class="small mb-2">Bold and colorful layout</p>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Modern Template 2</h5>
+                            <p class="card-text small text-muted">Vibrant colors with sidebar layout and profile section.</p>
+                            <button class="btn btn-primary w-100" onclick="selectTemplate('modern2')">
+                                <i class="fas fa-check"></i> Select Template
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Modern Template 3 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="template-card card border-0 shadow-sm overflow-hidden">
+                        <div class="template-preview bg-gradient-modern-3 p-4" style="height: 200px;">
+                            <div class="text-white">
+                                <h5 class="mb-1">Modern Elegant</h5>
+                                <p class="small mb-2">Sophisticated and sleek</p>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Modern Template 3</h5>
+                            <p class="card-text small text-muted">Elegant design with icons and structured sections.</p>
+                            <button class="btn btn-primary w-100" onclick="selectTemplate('modern3')">
+                                <i class="fas fa-check"></i> Select Template
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Modern Template 4 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="template-card card border-0 shadow-sm overflow-hidden">
+                        <div class="template-preview bg-gradient-modern-4 p-4" style="height: 200px;">
+                            <div class="text-white">
+                                <h5 class="mb-1">Modern Creative</h5>
+                                <p class="small mb-2">Creative and artistic</p>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Modern Template 4</h5>
+                            <p class="card-text small text-muted">Creative layout with unique design elements.</p>
+                            <button class="btn btn-primary w-100" onclick="selectTemplate('modern4')">
+                                <i class="fas fa-check"></i> Select Template
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Modern Template 5 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="template-card card border-0 shadow-sm overflow-hidden">
+                        <div class="template-preview bg-gradient-modern-5 p-4" style="height: 200px;">
+                            <div class="text-white">
+                                <h5 class="mb-1">Modern Tech</h5>
+                                <p class="small mb-2">Tech-focused design</p>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Modern Template 5</h5>
+                            <p class="card-text small text-muted">Perfect for tech professionals with modern aesthetics.</p>
+                            <button class="btn btn-primary w-100" onclick="selectTemplate('modern5')">
+                                <i class="fas fa-check"></i> Select Template
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Professional Templates Section -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <h2 class="mb-4 fw-bold">
+                <i class="fas fa-briefcase text-secondary"></i> Professional Templates
+            </h2>
+            <div class="row g-4 mb-5">
+                <!-- Professional Template 1 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="template-card card border-0 shadow-sm overflow-hidden">
+                        <div class="template-preview bg-gradient-professional p-4" style="height: 200px;">
+                            <div class="text-dark">
+                                <h5 class="mb-1">Professional Classic</h5>
+                                <p class="small mb-2">Traditional corporate style</p>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Professional Template 1</h5>
+                            <p class="card-text small text-muted">Classic corporate design with neutral colors.</p>
+                            <button class="btn btn-secondary w-100" onclick="selectTemplate('professional1')">
+                                <i class="fas fa-check"></i> Select Template
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Professional Template 2 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="template-card card border-0 shadow-sm overflow-hidden">
+                        <div class="template-preview bg-gradient-professional-2 p-4" style="height: 200px;">
+                            <div class="text-dark">
+                                <h5 class="mb-1">Professional Modern</h5>
+                                <p class="small mb-2">Contemporary corporate</p>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Professional Template 2</h5>
+                            <p class="card-text small text-muted">Modern professional layout with clean structure.</p>
+                            <button class="btn btn-secondary w-100" onclick="selectTemplate('professional2')">
+                                <i class="fas fa-check"></i> Select Template
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Professional Template 3 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="template-card card border-0 shadow-sm overflow-hidden">
+                        <div class="template-preview bg-gradient-professional-3 p-4" style="height: 200px;">
+                            <div class="text-dark">
+                                <h5 class="mb-1">Professional Executive</h5>
+                                <p class="small mb-2">Executive-level design</p>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Professional Template 3</h5>
+                            <p class="card-text small text-muted">Premium design for senior professionals.</p>
+                            <button class="btn btn-secondary w-100" onclick="selectTemplate('professional3')">
+                                <i class="fas fa-check"></i> Select Template
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Basic Templates Section -->
+    <section class="py-5">
+        <div class="container">
+            <h2 class="mb-4 fw-bold">
+                <i class="fas fa-file text-dark"></i> Basic Templates
+            </h2>
+            <div class="row g-4">
+                <!-- Basic Template 1 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="template-card card border-0 shadow-sm overflow-hidden">
+                        <div class="template-preview bg-light p-4" style="height: 200px; border: 2px solid #333;">
+                            <div class="text-dark">
+                                <h5 class="mb-1">Basic Classic</h5>
+                                <p class="small mb-2">Simple black and white</p>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Basic Template 1</h5>
+                            <p class="card-text small text-muted">Minimalist black and white design for simplicity.</p>
+                            <button class="btn btn-dark w-100" onclick="selectTemplate('basic1')">
+                                <i class="fas fa-check"></i> Select Template
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Basic Template 2 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="template-card card border-0 shadow-sm overflow-hidden">
+                        <div class="template-preview bg-light p-4" style="height: 200px; border: 2px solid #666;">
+                            <div class="text-dark">
+                                <h5 class="mb-1">Basic Modern</h5>
+                                <p class="small mb-2">Clean minimal layout</p>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Basic Template 2</h5>
+                            <p class="card-text small text-muted">Clean and minimal design with simple typography.</p>
+                            <button class="btn btn-dark w-100" onclick="selectTemplate('basic2')">
+                                <i class="fas fa-check"></i> Select Template
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-4 mt-5">
+        <div class="container text-center">
+            <p class="mb-0">&copy; 2026 CV Builder. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
