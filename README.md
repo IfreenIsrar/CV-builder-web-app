@@ -58,5 +58,5 @@ Strengthened frontend fundamentals without relying on frameworks
 
 
 
-🔗 Live Demo: [https://your-username.github.io/cv-builder-web-app/](https://www.linkedin.com/feed/update/urn:li:activity:7433606344370393088/)
+🔗 Live Demo: [https://IfreenIsrar.github.io/cv-builder-web-app/](https://www.linkedin.com/feed/update/urn:li:activity:7433606344370393088/)
 
